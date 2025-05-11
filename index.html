@@ -11,37 +11,25 @@
     <meta name="description" content="Wordle" />
 
     <!-- Facebook Meta Tags -->
-    <meta
-      property="og:url"
-      content=""
-    />
+    <meta property="og:url" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Wordle" />
     <meta
       property="og:description"
       content="Wordle game speedrun in HTML, CSS and JavaScript"
     />
-    <meta
-      property="og:image"
-      content=""
-    />
+    <meta property="og:image" content="" />
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="" />
-    <meta
-      property="twitter:url"
-      content=""
-    />
+    <meta property="twitter:url" content="" />
     <meta name="twitter:title" content="" />
     <meta
       name="twitter:description"
       content="Wordle game speedrun in HTML, CSS and JavaScript"
     />
-    <meta
-      name="twitter:image"
-      content=""
-    />
+    <meta name="twitter:image" content="" />
 
     <link rel="stylesheet" href="./src/style.css" />
     <link
@@ -55,10 +43,14 @@
       Wordle <span class="title-word-clone">Mind Game</span>
     </h1>
     <div id="game"></div>
+
+    <button class="new-game-button" onClick="window.location.reload();">
+      New Game
+    </button>
     <hr />
     <p class="footer">
-      Made by Rajesh
-      <span class="v-separator">|</span>
+      © Made by Team PsyGenie
+      <!-- <span class="v-separator">|</span>
       <span>
         <a
           class="social-media-link"
@@ -91,7 +83,7 @@
             />
           </svg>
         </a>
-      </span>
+      </span> -->
     </p>
     <script defer src="./src/index.js" type="module"></script>
   </body>

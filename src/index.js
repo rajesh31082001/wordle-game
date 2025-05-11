@@ -44,7 +44,6 @@ function drawBox(container, row, col, letter = '') {
   container.appendChild(box);
   return box;
 }
-
 function registerKeyboardEvents() {
   document.body.onkeydown = (e) => {
     const key = e.key;
